@@ -72,7 +72,7 @@ const Index = () => {
       >
         {isDownloading ? "..." : "Get App"}
       </Button> */}
-       <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Waitlist</a></Button>
+       <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Join Waitlist</a></Button>
     </div>
   </div>
 
@@ -101,7 +101,7 @@ const Index = () => {
             {/* <Button variant="cta" onClick={downloadApp} disabled={isDownloading}>
               {isDownloading ? "Downloading..." : "Get the app — Free"}
             </Button> */}
-            <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Waitlist</a></Button>
+            <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Join Waitlist</a></Button>
           </div>
         </nav>
       </header>
@@ -123,7 +123,7 @@ const Index = () => {
                 {/* <Button variant="cta" className="px-6" onClick={downloadApp} disabled={isDownloading}>
                   {isDownloading ? "Downloading..." : "Get the app — Free"}
                 </Button> */}
-                <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Waitlist</a></Button>
+                <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Join Waitlist</a></Button>
                 <Button variant="secondary" asChild>
                   <a href="#features">See how it works</a>
                 </Button>
@@ -187,7 +187,7 @@ const Index = () => {
                 {/* <Button variant="cta" className="px-6" onClick={downloadApp} disabled={isDownloading}>
                   {isDownloading ? "Downloading..." : "Download Free"}
                 </Button> */}
-                <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Waitlist</a></Button>
+                <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Join Waitlist</a></Button>
                 <Button variant="secondary" asChild>
                   <a href="#features">See how it works</a>
                 </Button>

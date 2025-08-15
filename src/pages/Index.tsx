@@ -64,14 +64,15 @@ const Index = () => {
     </div>
     <div className="flex items-center gap-2">
      
-      <Button 
+      {/* <Button 
         variant="cta" 
         size="sm" 
         onClick={downloadApp} 
         disabled={isDownloading}
       >
         {isDownloading ? "..." : "Get App"}
-      </Button>
+      </Button> */}
+       <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Waitlist</a></Button>
     </div>
   </div>
 

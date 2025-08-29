@@ -64,15 +64,15 @@ const Index = () => {
     </div>
     <div className="flex items-center gap-2">
      
-      {/* <Button 
+      <Button 
         variant="cta" 
         size="sm" 
         onClick={downloadApp} 
         disabled={isDownloading}
       >
         {isDownloading ? "..." : "Get App"}
-      </Button> */}
-       <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Join Waitlist</a></Button>
+      </Button>
+       {/* <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Join Waitlist</a></Button> */}
     </div>
   </div>
 
@@ -98,10 +98,10 @@ const Index = () => {
               <a href="#faq" className="text-sm text-muted-foreground hover:text-foreground transition-colors">FAQ</a>
               <a href="#download" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Download</a>
             </div>
-            {/* <Button variant="cta" onClick={downloadApp} disabled={isDownloading}>
+            <Button variant="cta" onClick={downloadApp} disabled={isDownloading}>
               {isDownloading ? "Downloading..." : "Get the app — Free"}
-            </Button> */}
-            <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Join Waitlist</a></Button>
+            </Button>
+            {/* <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Join Waitlist</a></Button> */}
           </div>
         </nav>
       </header>
@@ -120,10 +120,10 @@ const Index = () => {
               </p>
 
               <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
-                {/* <Button variant="cta" className="px-6" onClick={downloadApp} disabled={isDownloading}>
+                <Button variant="cta" className="px-6" onClick={downloadApp} disabled={isDownloading}>
                   {isDownloading ? "Downloading..." : "Get the app — Free"}
-                </Button> */}
-                <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Join Waitlist</a></Button>
+                </Button>
+                {/* <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Join Waitlist</a></Button> */}
                 <Button variant="secondary" asChild>
                   <a href="#features">See how it works</a>
                 </Button>
@@ -184,10 +184,10 @@ const Index = () => {
             <h2 className="text-2xl md:text-3xl font-bold">Ready to learn smarter with CA Guru.AI?</h2>
             <p className="mt-2 opacity-90">Free to start, Start Asking Doubts</p>
               <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
-                {/* <Button variant="cta" className="px-6" onClick={downloadApp} disabled={isDownloading}>
+                <Button variant="cta" className="px-6" onClick={downloadApp} disabled={isDownloading}>
                   {isDownloading ? "Downloading..." : "Download Free"}
-                </Button> */}
-                <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Join Waitlist</a></Button>
+                </Button>
+                {/* <Button variant="cta"><a href="https://forms.gle/By87K28PCtx4CZqr9" target="_blank">Join Waitlist</a></Button> */}
                 <Button variant="secondary" asChild>
                   <a href="#features">See how it works</a>
                 </Button>

@@ -215,8 +215,8 @@ const Index = () => {
         </section>
       </main>
 
-      <footer className="border-t py-6 text-center text-sm text-muted-foreground">
-        © {new Date().getFullYear()} CA Guru.AI — By FOCAS Edu.
+     <footer className="border-t py-6 text-center text-sm text-muted-foreground">
+      <a href="https://docs.google.com/document/d/19RqBpgPFEgMfrLzjdS1OjB-bm6s3Dl9BCF1uAksmfHA/edit?tab=t.0#heading=h.bhyey8op6t8r" target="_blank">  © {new Date().getFullYear()} CA Guru.AI — By FOCAS Edu.</a>
       </footer>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{

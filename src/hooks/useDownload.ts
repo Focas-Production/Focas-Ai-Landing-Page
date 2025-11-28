@@ -41,7 +41,8 @@ export const useDownload = () => {
 
       // Open the MediaFire APK download link
       // const apkUrl = "https://www.mediafire.com/file/mw6h5g90ve2bptq/application-e5ec5fe8-2df0-45ab-86b3-1aeca2ab0382.apk/file";
-     const apkUrl = "https://drive.google.com/uc?export=download&id=1oNVG1xWYFEGTDqRxsAyhHSBBdjA60gpY";
+      //  const apkUrl = "https://drive.google.com/uc?export=download&id=1oNVG1xWYFEGTDqRxsAyhHSBBdjA60gpY";
+    const apkUrl = "https://drive.google.com/file/d/10kL_arM8x6FlfWG3OGqMOv2KY_7CYzoQ/view?usp=drive_link";
       window.open(apkUrl, '_blank');
 
     } catch (error) {

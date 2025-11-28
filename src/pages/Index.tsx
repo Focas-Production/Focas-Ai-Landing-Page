@@ -215,9 +215,24 @@ const Index = () => {
         </section>
       </main>
 
-     <footer className="border-t py-6 text-center text-sm text-muted-foreground">
-      <a href="https://docs.google.com/document/d/19RqBpgPFEgMfrLzjdS1OjB-bm6s3Dl9BCF1uAksmfHA/edit?tab=t.0#heading=h.bhyey8op6t8r" target="_blank">  © {new Date().getFullYear()} CA Guru.AI — By FOCAS Edu.</a>
-      </footer>
+    <div className="w-full border-t">
+  <div className="flex flex-col md:flex-row justify-between items-center px-6 md:px-10 py-6 gap-3">
+
+    <footer className="text-center text-sm text-muted-foreground">
+      © {new Date().getFullYear()} CA Guru.AI — By FOCAS Edu.
+    </footer>
+
+    <a
+      href="https://docs.google.com/document/d/19RqBpgPFEgMfrLzjdS1OjB-bm6s3Dl9BCF1uAksmfHA/edit?tab=t.0#heading=h.bhyey8op6t8r"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-center text-sm text-muted-foreground hover:underline cursor-pointer"
+    >
+      Privacy Policy
+    </a>
+
+  </div>
+</div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{
       __html: JSON.stringify(faqJson)
